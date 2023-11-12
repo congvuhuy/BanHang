@@ -1,11 +1,11 @@
 import React from "react";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/images/logo.png";
 import TypeProduct from "../TypeProductComponent/TypeProductComponent";
 
 const HeaderComponent =()=>{
     return (
         <div className="header">
-        <div class="container-fluid">
+        <div className="container-fluid">
             <div class="row">
                 <div class="col-md-2 logo">
                     <img src={logo}/>
@@ -14,8 +14,6 @@ const HeaderComponent =()=>{
                     <div class="input-group">
                         <input type="search" class="form-control rounded" placeholder="Tìm kiếm" aria-label="Search" aria-describedby="search-addon" />
                         <button type="button" class="btn btn-outline-primary">Tìm kiếm</button>
-                        
-                        
                     </div>
                 </div>
                 <div class="col-md-4 option">

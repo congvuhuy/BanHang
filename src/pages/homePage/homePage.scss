@@ -1,0 +1,47 @@
+//content css
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+.content{
+    margin-top: 5px;
+    margin-bottom: 5px ;
+    margin-right:100px;
+    margin-left: 100px;
+   
+    .nav{
+        width: 250px;
+        height: 1200px;
+        border-radius: 10px;
+        
+        margin-right: 5px;
+        float: left;
+    }
+    .sliderContent{
+        float: right;
+        margin-left: 5px;
+        width: 1015px;
+        height: 300px;
+        .slider{
+            .img{
+                border-radius: 10px;
+                height: 300px;
+            }
+        }
+    }
+    .cardProduct{
+            
+        .cardItems{
+            float: left;
+            border: solid 1px red;
+            width: 245px;
+            margin-left: 10px;
+            margin-top: 10px;
+        }
+        .pagination{
+            padding-top: 10px;
+            padding-left: 200px;
+            float: left;
+            color: red;
+        }
+    }
+  }
+  
